@@ -1,0 +1,38 @@
+@import "../../common/colors.scss";
+
+.card-item {
+    background-color: rgb(19, 13, 39);
+    display: grid;
+    // border: 2px solid red;
+    margin-bottom: 20px;
+    width:220px;
+    height: 280px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.card-item:hover {
+    cursor:pointer;
+}
+.card-top {
+    // border: 2px solid green;
+    img {
+        margin: 20px;
+        width: 180px;
+        height: auto;
+        border-radius: 10px;
+    }
+}
+
+.card-bottom {
+    color: $font-primary;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 10px;
+}
+
+.country-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px,1fr));
+}

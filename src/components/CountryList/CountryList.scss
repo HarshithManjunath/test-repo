@@ -1,0 +1,31 @@
+@import "../../common/colors.scss";
+
+.search-wrapper {
+    text-align: center;
+}
+
+input[type=search]{
+    // width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.search-box {
+    border-radius: 10px;
+    border: 1px solid rgb(121, 121, 121);
+    margin-top: 25px;
+    width: 600px;
+    height: 50px;
+  }
+
+.country-wrapper {
+    margin: 30px;
+    h2 {
+        color: $font-primary;
+        margin-bottom: 10px;
+    };
+}
+.country-list {
+    margin: 20px 0;
+}

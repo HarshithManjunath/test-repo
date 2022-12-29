@@ -1,0 +1,48 @@
+@import "../../common/colors.scss";
+
+.details-container {
+    // border: 2px solid red;
+    line-height: 40px;
+    margin:20px;
+    padding-left: 20px;
+    h3 {
+    color: $font-primary;
+    }
+}
+
+img {
+    height: 200px;
+    width: auto;
+    border-radius: 10px;
+}
+
+button {
+    background-color: $secondary-color;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 10px;
+    border:0;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(36, 36, 36);
+}
+
+.weather {
+    color: $font-primary;
+    width: 100%;
+    display: table;
+    padding-left: 20px;
+    margin-left:20px;
+
+}
+
+.weather-details {
+    display: table-cell;
+    width: 250px;
+}
