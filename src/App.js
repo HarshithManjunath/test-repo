@@ -19,6 +19,8 @@ function App() {
               console.log(err);
           });
           console.log("Fetched response ", response);
+          // console.log("Fetched response ", response);
+          // console.log("Fetched response ", response);
           dispatch(addCountries(response.data));
       };
       fetchCountries();
